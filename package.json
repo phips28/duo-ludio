@@ -29,5 +29,6 @@
     "howler": "^2.1.2",
     "localforage": "^1.7.3"
   },
-  "private": true
+  "private": true,
+  "version": "0.0.1"
 }
