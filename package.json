@@ -3,6 +3,7 @@
     "sw": "workbox generateSW workbox-config.js",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
+    "deploy:vercel": "npm run sw && npm run build && npm run sw && npm run build",
     "doc": "typedoc --out docs --listInvalidSymbolLinks --name 'Duo Ludio'",
     "test": "tsc --noEmit && npm run doc"
   },
